@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap');
+body{
+	background-color: lightgreen;
+}
+p{
+	font-size: 50px;
+	background-color: green;
+	color: cyan;
+		font-family: "Rubik Spray Paint", system-ui; 
+}
+ul,ol,dl{
+	font-size: 24px;
+	color: darkgreen;
+}
+.ul1 li{
+	padding-left: 10px;
+}
+.ul2 li::marker{
+	color: darkgreen;
+	font-size: 1.1em;
+}
+ol{
+	margin-left: 30px;
+}
+@counter-style emoji {
+  system: cyclic;
+  symbols: 😀 👻 👽 👾  🐱🎃 😹 👋 🐱 💋;
+  suffix: " ";
+}
+
+
+ul.ul3 {
+ list-style: emoji;
+}
+dl{
+	 font-family: "Alumni Sans Collegiate One"
+}

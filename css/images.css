@@ -1,0 +1,41 @@
+body{
+	background-color: lightblue;
+	background-image: url(https://i.gifer.com/origin/7e/7e0bcff70452c2eca7f1250938b226c3_w200.webp);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: 95% 95%;
+	background-attachment: fixed;
+}
+p{
+	font-size: 0.8in;
+	color: darkgoldenrod;
+	background-image: url(https://t4.ftcdn.net/jpg/02/10/45/95/240_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg);
+	background-size: cover;
+}
+#d1{
+	width: 600px;
+	height: 400px;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrkiVDsYr4f3KUqRhy6ROQdwFC7VEjg83cPg&usqp=CAU);
+	background-size: cover;
+	border: 30px groove white;
+}
+#d2{
+	width: 400px;
+	height: 400px;
+	background-image: url(https://thumbs.dreamstime.com/b/beautiful-abstract-water-drops-colorful-background-multicolored-backdrop-142176129.jpg);
+	border: 30px solid;
+	border-image: linear-gradient(orange,green,red) 30;
+	margin: 50px;
+}
+#img1{
+	width: 800px;
+	border: 30px ridge darkblue;
+	margin-bottom: 50px;
+}
+#img2{
+	width: 50%;
+	display: block;
+	margin: auto;
+	border-radius: 5%;
+	box-shadow: 0 0 50px yellow;
+}
